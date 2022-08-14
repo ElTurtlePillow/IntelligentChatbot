@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "what's up"],
+      "responses": ["Hello", "hey", "What can i do?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["goodbye", "cya", "bye", "cao", "see ya"],
+      "responses": ["Goodbye", "See you"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are u", "can u tell me your name"],
+      "responses": ["I'm bob", "Call me bob"]
+    }
+  ]
+}
